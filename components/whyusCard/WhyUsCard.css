@@ -1,0 +1,53 @@
+.whyus-card {
+    background-color: transparent;
+}
+
+.whyus-img-div {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.whyus-img {
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.whyus-text-title {
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    margin: 0px;
+}
+
+.whyus-text-desc {
+    font-size: 18px;
+    text-align: center;
+}
+
+.whyus-text-details {
+    padding: 1.5rem;
+}
+
+/* Media Query */
+
+@media (max-width: 1380px) {
+    .whyus-text-title {
+        padding-top: 0.5rem;
+        font-size: 20px;
+    }
+    .whyus-img {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .whyus-text-title {
+        font-size: 20px;
+    }
+    .whyus-text-desc {
+        font-size: 16px;
+    }
+}
