@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./Integrations.css";
+import styles from "./Integrations.module.css";
 import IntegrationCard from "../../../components/integrationCard/IntegrationCard";
 import { integrations } from "../../../variables";
 import PropTypes from 'prop-types';
@@ -12,11 +12,11 @@ class Integrations extends Component {
 
   render() {
     return (
-        <div className="container" id="games">
+        <div className="container" id="integration">
             <div>
-                <h1 className="game-heading">Applications and Networks integration</h1>
-                <p style={{lineHeight: 1.5}} className="game-sub-heading">New applications and networks are constantly added. Download the source code and create your own custom nodes.</p>
-                <div className="game-cards-div">
+                <h1 className={styles['integration-heading']}>Applications and Networks Integration</h1>
+                <p style={{lineHeight: 1.5}} className={styles['integration-sub-heading']}>New applications and networks are constantly added. Download the source code and create your own custom nodes.</p>
+                <div className={styles['integration-cards-div']}>
                 {integrations.map((card, index) => {
                     return (
                         <IntegrationCard

@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import { Collapse, Navbar, NavbarBrand, Nav, NavItem, NavLink, NavDropdown, NavbarToggler, Button,
-  Dropdown, DropdownItem, DropdownMenu, DropdownToggle, UncontrolledDropdown, Label} from 'reactstrap';
-import './NavBar.css'
 import PropTypes from 'prop-types';
-import color from "../../assets/color"
 import Image from 'next/image'
 
 class NavBar extends Component {

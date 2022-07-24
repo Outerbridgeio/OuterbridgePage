@@ -1,5 +1,4 @@
 import React from "react";
-import "./Feature1.css";
 import { feature1 } from "../../../variables";
 
 export default function Feature1() {
