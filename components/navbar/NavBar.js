@@ -47,7 +47,7 @@ class NavBar extends Component {
 
               <a className ="navbar-brand logo-image" href="/">
                 <Image
-                  src="/static/outerbridge_brand.png"
+                  src="/outerbridge_brand.png"
                   alt="Outerbridge Logo"
                   height={60}
                   width={250}

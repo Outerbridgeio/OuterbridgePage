@@ -22,7 +22,7 @@ class Footer extends Component {
                                 
                                 <a className ="navbar-brand logo-image" href="/">
                                     <Image
-                                        src="/static/outerbridge_brand_white.png"
+                                        src="/outerbridge_brand_white.png"
                                         alt="Outerbridge Logo"
                                         height={50}
                                         width={200}

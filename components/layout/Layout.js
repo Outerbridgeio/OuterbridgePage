@@ -23,7 +23,7 @@ class Layout extends React.Component {
             <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/>
             <meta name="author" content="Approto"/>
             <link rel="manifest" href="/manifest.json"/>
-            <link rel="shortcut icon" href="/static/favicon.ico"/>
+            <link rel="shortcut icon" href="/favicon.ico"/>
           
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
             <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-3"></script>
