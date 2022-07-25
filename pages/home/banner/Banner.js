@@ -33,12 +33,10 @@ class Banner extends Component {
                                 </div> 
                                 <div className="col-lg-7 col-xl-7">
                                     <div className="img-wrapper-mobile" style={{margin: 'auto'}} >
-                                        <Image
+                                        <img
                                             src="/banner_svg.svg"
                                             alt="Outerbridge Banner"
-                                            layout="responsive"
-                                            height={800}
-                                            width={1500}
+                                            style={{ height: 'auto', width: '100%' }}
                                         />
                                     </div>   
                                 </div> 
