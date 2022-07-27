@@ -2,7 +2,7 @@
 
 Landing page for Outerbridge. 
 
-![Outerbridge](/static/outerbridge_brand.png)
+![Outerbridge](/static/outerbridge_brand.svg)
 
 ![Outerbridge Screenshot](/static/banner_svg.svg)
 
