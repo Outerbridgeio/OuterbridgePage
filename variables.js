@@ -12,18 +12,24 @@ const feature1 = {
 }
 
 const feature2 = {
+  title: "Crypto Wallet",
+  subTitle: "Create hot wallet to be able to automate signing transactions on blockchain using private key.",
+  img: "/feature5.png",
+}
+
+const feature3 = {
     title: "If Else Branching",
     subTitle: "Enable spliting of flows based on specified conditions, allowing for more flexible workflows.",
     img: "/feature2.png",
 }
 
-const feature3 = {
+const feature4 = {
   title: "NodeJS Scripts",
   subTitle: "Write custom code in NodeJS to build more complicated workflows.",
   img: "/feature3.png",
 }
 
-const feature4 = {
+const feature5 = {
   title: "Saved Executions",
   subTitle: "Every execution data from deployed workflows are saved, along with attachments and HTML.",
   img: "/feature4.png",
@@ -106,8 +112,8 @@ const customer =
 
 const whyus = [
   {
-    title: "Fair Source License",  
-    desc: "Free for personal use and limited commercial use (max 25 users).",
+    title: "Apache 2.0 License",  
+    desc: "Source available & free to self-host for personal & commercial use.",
     img: "/license.svg",
   },
   {
@@ -122,4 +128,4 @@ const whyus = [
   },
 ];
 
-export { banner, whyus, feature1, feature2, feature3, feature4, customer, integrations};
+export { banner, whyus, feature1, feature2, feature3, feature4, feature5, customer, integrations};

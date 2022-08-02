@@ -21,7 +21,7 @@ class Footer extends Component {
                             <div className="footer-col first">
                                 
                                 <a className ="navbar-brand logo-image" href="/">
-                                    <Image
+                                    <img
                                         src="/outerbridge_brand_white.svg"
                                         alt="Outerbridge Logo"
                                         height={50}

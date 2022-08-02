@@ -6,6 +6,7 @@ import Feature1 from './feature1/Feature1'
 import Feature2 from './feature2/Feature2'
 import Feature3 from './feature3/Feature3'
 import Feature4 from './feature4/Feature4'
+import Feature5 from './feature5/Feature5'
 import Integrations from './integrations/Integrations'
 import Footer from '../../components/footer/Footer'
 import NavBar from '../../components/navbar/NavBar';
@@ -64,6 +65,7 @@ class Home extends Component {
           <Feature2/>
           <Feature3/>
           <Feature4/>
+          <Feature5/>
 
           <div ref={this.refObj3} > </div>
           <div style={{backgroundColor: '#F8F0FF'}}>
