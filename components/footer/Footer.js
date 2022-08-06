@@ -48,10 +48,16 @@ class Footer extends Component {
                                             <li className="media">
                                                 <a className="white" href="#" onClick={e=>this.props.integrationClicked(e)} >Integrations</a>
                                             </li>
+                                            <li className="media">
+                                                <a className="white" href="https://github.com/Outerbridgeio/Outerbridge" target="_blank" >View Github</a>
+                                            </li>
+                                        </div>
+                                        <div className="col-md-6">
+                                            <li className="media">
+                                                <a className="white" href="https://docs.outerbridge.io" target="_blank" >View Docs</a>
+                                            </li>
                                         </div>
                                     </div>
-                                    
-                                    
                                 </ul>
                             </div>
                         </div> 
@@ -63,7 +69,14 @@ class Footer extends Component {
                                         <i className="fas fa-envelope"></i>
                                         <div className="media-body"><a className="white" href="mailto:hello@outerbridge.io">hello@outerbridge.io</a></div>
                                     </li>
-                                    
+                                    <li className="media">
+                                        <i className="fab fa-twitter mt-1"></i>
+                                        <div className="media-body"><a className="white" href="https://twitter.com/Outerbridge_IO">@Outerbridge_IO</a></div>
+                                    </li>
+                                    <li className="media">
+                                        <i className="fab fa-discord mt-1"></i>
+                                        <div className="media-body"><a className="white" href="https://discord.gg/Y9VE4ykPDJ">OuterbridgeIO</a></div>
+                                    </li>
                                 </ul>
                             </div> 
                         </div>
