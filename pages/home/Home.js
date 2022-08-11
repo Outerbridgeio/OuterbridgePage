@@ -7,6 +7,7 @@ import Feature2 from './feature2/Feature2'
 import Feature3 from './feature3/Feature3'
 import Feature4 from './feature4/Feature4'
 import Feature5 from './feature5/Feature5'
+import Demo from './demo/Demo'
 import Integrations from './integrations/Integrations'
 import Footer from '../../components/footer/Footer'
 import NavBar from '../../components/navbar/NavBar';
@@ -61,6 +62,7 @@ class Home extends Component {
           </div>
 
           <div ref={this.refObj2} > </div>
+          <Demo />
           <Feature1/>
           <Feature2/>
           <Feature3/>
