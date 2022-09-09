@@ -28,8 +28,8 @@ class Banner extends Component {
                                     <div className="">
                                         <h1>{banner.title}</h1>
                                         <p className="p-large">{banner.subTitle}</p>
-                                        <a style={{marginBottom: 20, cursor: 'pointer'}} className="btn-solid-lg page-scroll" href="https://github.com/Outerbridgeio/Outerbridge" target="_blank"><i className="fab fa-github"></i>&nbsp;&nbsp;View Github</a>
-                                        <a style={{marginBottom: 20, cursor: 'pointer'}} className="btn-contained-lg page-scroll" href="https://docs.outerbridge.io" target="_blank"><i className="fas fa-book"></i>&nbsp;&nbsp;&nbsp;View Docs</a>
+                                        <a style={{marginBottom: 20, cursor: 'pointer'}} className="btn-solid-lg page-scroll" href="https://demo.outerbridge.io" target="_blank"><i className="fas fa-rocket"></i>&nbsp;&nbsp;View Demo</a>
+                                        <a style={{marginBottom: 20, cursor: 'pointer'}} className="btn-contained-lg page-scroll" href="https://github.com/Outerbridgeio/Outerbridge" target="_blank"><i className="fab fa-github"></i>&nbsp;&nbsp;&nbsp;View Github</a>
                                     </div>
                                 </div> 
                                 <div className="col-lg-7 col-xl-7">

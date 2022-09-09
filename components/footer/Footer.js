@@ -43,18 +43,19 @@ class Footer extends Component {
                                             <li className="media">
                                                 <a className="white" href="#" onClick={e=>this.props.featureClicked(e)} >Features</a>
                                             </li>
-                                        </div>
-                                        <div className="col-md-6">
                                             <li className="media">
                                                 <a className="white" href="#" onClick={e=>this.props.integrationClicked(e)} >Integrations</a>
                                             </li>
-                                            <li className="media">
-                                                <a className="white" href="https://github.com/Outerbridgeio/Outerbridge" target="_blank" >View Github</a>
-                                            </li>
                                         </div>
                                         <div className="col-md-6">
                                             <li className="media">
+                                                <a className="white" href="https://github.com/Outerbridgeio/Outerbridge" target="_blank" >View Github</a>
+                                            </li>
+                                            <li className="media">
                                                 <a className="white" href="https://docs.outerbridge.io" target="_blank" >View Docs</a>
+                                            </li>
+                                            <li className="media">
+                                                <a className="white" href="https://demo.outerbridge.io" target="_blank" >View Demo</a>
                                             </li>
                                         </div>
                                     </div>
