@@ -13,7 +13,7 @@ export default function Demo() {
             src="https://www.youtube.com/embed/x-AfrkKvZ4M"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
       </div>
     </div>
