@@ -24,8 +24,8 @@ const feature3 = {
 }
 
 const feature4 = {
-  title: "NodeJS Scripts",
-  subTitle: "Write custom code in NodeJS to build more complicated workflows.",
+  title: "NodeJS and Solidity Scripts",
+  subTitle: "Write custom code in NodeJS and Solidity to build more complicated workflows.",
   img: "/feature3.png",
 }
 
@@ -128,4 +128,19 @@ const whyus = [
   },
 ];
 
-export { banner, whyus, feature1, feature2, feature3, feature4, feature5, customer, integrations};
+const testimonial = [
+  {
+    name: "Lucas Delbel",
+    title: "Software Engineer at Wisefy",
+    desc: "Outerbridge was one of the best discoveries we had recently, and rapidly became one of the core components of our project setups. The tool is beautifully built, incredibly intuitive,  easy to use, and provide amazing resources for dealing with web3 and web2 interfaces and interactions. I highly recommend it to everyone, and the potential for the near future is overwhelming. The support is excellent, the creators are very attentive, and they are actively and constantly improving the project",
+    img: "/static/lucas_testimonial.png",
+  },
+  {
+    name: "Johnson Chang",  
+    title: 'Managing Director at Sernsoft',
+    desc: "At Sernsoft we help clients build projects in Web3 and Web2 spaces. We needed a tool to talk to onchain data and consume blockchain info like blocks, transaction etc. That's where Outerbridge comes into play, fits perfectly into the niche. Outerbridge simple interface makes it easy to automate our repetitive workflows across our existing Web3 and Web2 tech stacks",
+    img: "/static/sernsoft_johnson.jpg",
+  },
+];
+
+export { banner, whyus, feature1, feature2, feature3, feature4, feature5, customer, integrations, testimonial};
