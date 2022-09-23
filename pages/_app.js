@@ -11,20 +11,23 @@ export default class OuterbridgeApp extends App {
     return (
       <React.Fragment>
         <DefaultSeo 
-          title='Outerbridge - Workflow Automation'
-          description='Outerbridge is a low code/no code workflow automation application, focusing on integrating both on-chain and off-chain applications.'
+          title='Outerbridge - Web3 + Web2 Workflow Automation'
+          description='Outerbridge is an open source low code/no code workflow automation application, focusing on integrating both on-chain and off-chain applications.'
           openGraph= {{
             type: 'website',
             locale: 'en_IE',
             url: 'https://www.outerbridge.io',
-            title: 'Outerbridge - Workflow Automation',
-            description: 'Outerbridge is a low code/no code workflow automation application, focusing on integrating both on-chain and off-chain applications.',
-            images: [],
+            title: 'Outerbridge - Web3 + Web2 Workflow Automation',
+            description: 'Outerbridge is an open source low code/no code workflow automation application, focusing on integrating both on-chain and off-chain applications.',
+            images: [{
+              url: 'https://outerbridgepage.s3.eu-west-1.amazonaws.com/outerbridge_logo_dark.png',
+              alt: 'Outerbridge Logo'
+            }],
             site_name: 'Outerbridge.io',
           }}
           twitter= {{
-            handle: '@OuterbridgeIO',
-            site: '@OuterbridgeIO',
+            handle: '@Outerbridge_IO',
+            site: '@Outerbridge_IO',
             cardType: 'summary_large_image',
           }}
         />
