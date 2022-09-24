@@ -113,7 +113,7 @@ const customer =
 const whyus = [
   {
     title: "Apache 2.0 License",  
-    desc: "Source available & free to self-host for personal & commercial use.",
+    desc: "Open source & free to self-host for personal & commercial use.",
     img: "/license.svg",
   },
   {
