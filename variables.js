@@ -2,7 +2,7 @@
 const banner = {
   username: "Outerbridge",
   title: "Automate Web3 and Web2 applications",
-  subTitle: "Outerbridge is a low code/no code workflow automation application, focusing on integrating both on-chain and off-chain applications.",
+  subTitle: "Outerbridge is a low code/no code automation tool to connect on-chain (Web3) and off-chain (Web2) applications.",
 };
 
 const feature1 = {
