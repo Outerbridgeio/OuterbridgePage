@@ -1,3 +1,10 @@
+.testimonial-heading {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-top: 4rem;
+    text-align: center;
+}
 
 .testimonial-main-div {
     margin-top: 2rem;
@@ -33,11 +40,22 @@
 
 /* Media Query */
 
+@media (max-width: 1380px) {
+    .testimonial-heading {
+        font-size: 28px;
+    }
+}
+
 @media (max-width: 768px) {
+
+    .testimonial-heading {
+        font-size: 26px;
+    }
     
     .testimonial-main-div {
         flex-direction: column
     }
+
     .testimonial-text-div {
         margin-left: 0px;
         margin: 20px;
@@ -46,13 +64,16 @@
     .testimonial-desc {
         font-size: 17px;
     }
+
     .testimonial-image-div > img {
         width: 3.5rem;
         height: 3.5rem;
     }
+
     .testimonial-author {
         font-size: 15px;
     }
+
     .testimonial-title {
         font-size: 15px;
     }

@@ -64,7 +64,8 @@ class Testimonial extends React.Component {
         return (
             
             <div className="slider-2">
-                <div style={{marginTop: 20}} className="container">
+                <div className="container">
+                    <h1 className={styles['testimonial-heading']}>Hear what developers say</h1>
                     <div className="row">
                         <div className="col-lg-12">      
                 

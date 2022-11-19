@@ -28,9 +28,8 @@ class Banner extends Component {
                                     <div className="">
                                         <h1>{banner.title}</h1>
                                         <p className="p-large">{banner.subTitle}</p>
-                                        <a href="https://www.producthunt.com/posts/outerbridge?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-outerbridge" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=362480&theme=light" alt="Outerbridge - Connect&#0032;Web3&#0032;and&#0032;Web2&#0032;API&#0032;without&#0032;code | Product Hunt" style={{width: 250, height: 54}} width="250" height="54" /></a>
-                                        <a style={{marginBottom: 20, marginLeft: 10, cursor: 'pointer'}} className="btn-contained-lg page-scroll" href="https://demo.outerbridge.io" target="_blank"><i className="fas fa-rocket"></i>&nbsp;&nbsp;View Demo</a>
-                                        {/* <a style={{marginBottom: 20, cursor: 'pointer'}} className="btn-contained-lg page-scroll" href="https://github.com/Outerbridgeio/Outerbridge" target="_blank"><i className="fab fa-github"></i>&nbsp;&nbsp;&nbsp;View Github</a> */}
+                                        <a style={{marginBottom: 20, marginLeft: 10, cursor: 'pointer'}} className="btn-contained-lg page-scroll" href="https://app.outerbridge.io" target="_blank"><i className="fas fa-rocket"></i>&nbsp;&nbsp;Open App</a>
+                                        <a style={{marginBottom: 20, cursor: 'pointer', marginLeft: 5}} className="btn-outline-lg" href="https://github.com/Outerbridgeio/Outerbridge" target="_blank"><i className="fab fa-github"></i>&nbsp;&nbsp;&nbsp;View Github</a>
                                     </div>
                                 </div> 
                                 <div className="col-lg-7 col-xl-7">

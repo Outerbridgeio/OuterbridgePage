@@ -7,6 +7,7 @@ import Feature2 from './feature2/Feature2'
 import Feature3 from './feature3/Feature3'
 import Feature4 from './feature4/Feature4'
 import Feature5 from './feature5/Feature5'
+import Pricing from './pricing/Pricing'
 import Demo from './demo/Demo'
 import Testimonial from './testimonial/Testimonial'
 import Integrations from './integrations/Integrations'
@@ -77,12 +78,15 @@ class Home extends Component {
 
           <Testimonial />
 
+          <div style={{backgroundColor: '#F8F0FF'}}>
+            <Pricing/>
+          </div>
+
           <Footer whyUsClicked={e=>this.whyUsClicked(e)} featureClicked={e=>this.featureClicked(e)} integrationClicked={e=>this.integrationClicked(e)} />
 
-        
         </div>  
       
-    );
+      );
   }
 }
 

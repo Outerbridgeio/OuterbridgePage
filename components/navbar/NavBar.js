@@ -72,7 +72,7 @@ class NavBar extends Component {
                       </li>
                   </ul>
                   <span className="nav-item">
-                      <a style={{cursor: 'pointer'}} className="btn-outline-sm" href="https://demo.outerbridge.io" target="_blank" ><i className="fas fa-rocket"></i>&nbsp;&nbsp;VIEW DEMO</a>
+                      <a style={{cursor: 'pointer'}} className="btn-outline-sm" href="https://app.outerbridge.io" target="_blank" ><i className="fas fa-rocket"></i>&nbsp;&nbsp;Open App</a>
                   </span>
               </div>
           </div> 

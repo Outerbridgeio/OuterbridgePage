@@ -128,6 +128,40 @@ const whyus = [
   },
 ];
 
+const pricesSection = [
+  {
+    title: "Community Version",
+    price: "0",
+    subtitle: "for lifetime",
+    bulletpoints: [
+      {
+        title: "Single user",
+        available: "true",
+      },
+      {
+        title: "20 workflows",
+        available: "true",
+      },
+      {
+        title: "250 daily executions",
+        available: "true",
+      },
+      {
+        title: "10 contracts",
+        available: "true",
+      },
+      {
+        title: "3 wallets",
+        available: "true",
+      },
+      {
+        title: "Support through community forum",
+        available: "true",
+      },
+    ],
+  },
+];
+
 const testimonial = [
   {
     name: "Lucas Delbel",
@@ -143,4 +177,4 @@ const testimonial = [
   },
 ];
 
-export { banner, whyus, feature1, feature2, feature3, feature4, feature5, customer, integrations, testimonial};
+export { banner, whyus, feature1, feature2, feature3, feature4, feature5, customer, integrations, testimonial, pricesSection};

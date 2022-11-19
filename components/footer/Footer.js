@@ -46,6 +46,9 @@ class Footer extends Component {
                                             <li className="media">
                                                 <a className="white" href="#" onClick={e=>this.props.integrationClicked(e)} >Integrations</a>
                                             </li>
+                                            <li className="media">
+                                                <a className="white" href="/privacy" target="_blank" >Privacy Policy</a>
+                                            </li>
                                         </div>
                                         <div className="col-md-6">
                                             <li className="media">
@@ -56,6 +59,9 @@ class Footer extends Component {
                                             </li>
                                             <li className="media">
                                                 <a className="white" href="https://demo.outerbridge.io" target="_blank" >View Demo</a>
+                                            </li>
+                                            <li className="media">
+                                                <a className="white" href="/terms" target="_blank" >Terms of Use</a>
                                             </li>
                                         </div>
                                     </div>

@@ -1,48 +1,46 @@
-.demo-cards-div {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1rem 1rem;
+.pricing-cards-div {
+    display: column;
+    
 }
 
-.demo-heading {
+.pricing-heading {
     font-size: 30px;
     font-weight: 600;
-    margin-top: 5rem;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    padding-top: 5rem;
     text-align: center;
 }
 
-.demo-sub-heading {
+.pricing-sub-heading {
     font-size: 18px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
-.demo-container {
+.pricing-container {
     display: flex;
-    width: 90%;
+    width: 100%;
     padding: 20px 10px;
     margin: 0px auto;
-    margin-top: 2rem;
 }
 
-.demo-container>* {
+.pricing-container>* {
     flex: 1;
 }
 
 /* Media Query */
 
 @media (max-width: 1380px) {
-    .demo-heading {
+    .pricing-heading {
         font-size: 28px;
     }
 }
 
 @media (max-width: 768px) {
-    .demo-heading {
+    .pricing-heading {
         font-size: 26px;
     }
-    .demo-sub-heading {
+    .pricing-sub-heading {
         font-size: 16px;
     }
 }

@@ -240,54 +240,54 @@ a.termprivacy {
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
-	border: 0.125rem solid #55198b;
+	border: 0.125rem solid #55198b !important;
 	border-radius: 2rem;
-	background-color: transparent;
-	color: #55198b;
+	background-color: #fff !important;
+	color: #55198b !important;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	background-color: #55198b;
-	color: #fff;
+	background-color: #55198b !important;
+	color: #fff !important;
 	text-decoration: none;
 }
 
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.375rem 2.625rem 1.375rem 2.625rem;
-	border: 0.125rem solid #55198b;
+	border: 0.125rem solid #55198b !important;
 	border-radius: 2rem;
-	background-color: transparent;
-	color: #55198b;
+	background-color: #fff !important;
+	color: #55198b !important;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-lg:hover {
-	background-color: #55198b;
-	color: #fff;
+	background-color: #55198b !important;
+	color: #fff !important;
 	text-decoration: none;
 }
 
 .btn-outline-sm {
 	display: inline-block;
 	padding: 0.875rem 1.5rem 0.875rem 1.5rem;
-	border: 0.125rem solid #55198b;
+	border: 0.125rem solid #55198b !important;
 	border-radius: 2rem;
-	background-color: transparent;
-	color: #55198b;
+	background-color: #fff !important;
+	color: #55198b !important;
 	font: 700 0.875rem/0 "Open Sans", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-sm:hover {
-	background-color: #55198b;
-	color: #fff;
+	background-color: #55198b !important;
+	color: #fff !important;
 	text-decoration: none;
 }
 
