@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from '../../components/navbar/NavBar';
+import Footer from '../../components/footer/Footer'
 
 class TermsOfService extends Component {
 
@@ -35,7 +36,7 @@ class TermsOfService extends Component {
 
             <div className="container">
 
-                <h1 style={{ marginTop: 120 }}>Terms of Use</h1>
+                <h1 style={{ marginTop: 150 }}>Terms of Use</h1>
                 <br/>
 
                 <h3>1. Terms</h3>
@@ -94,6 +95,9 @@ class TermsOfService extends Component {
                 <br/>
                 <br/>
             </div>
+
+            <Footer whyUsClicked={e=>this.whyUsClicked(e)} featureClicked={e=>this.featureClicked(e)} integrationClicked={e=>this.integrationClicked(e)} />
+
             </div>
         );
     }

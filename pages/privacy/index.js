@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import NavBar from '../../components/navbar/NavBar';
+import Footer from '../../components/footer/Footer'
 
 class PrivacyPolicy extends Component {
 
@@ -35,7 +36,7 @@ class PrivacyPolicy extends Component {
 
             <div className="container">
 
-                <h1 style={{ marginTop: 120 }}>Privacy Policy</h1>
+                <h1 style={{ marginTop: 150 }}>Privacy Policy</h1>
                 <br/>
 
                 <p>At Outerbridge, accessible from <a href="https://www.outerbridge.io">https://www.outerbridge.io</a>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Outerbridge and how we use it.</p>
@@ -122,6 +123,8 @@ class PrivacyPolicy extends Component {
                 <br/>
             </div>
   
+            <Footer whyUsClicked={e=>this.whyUsClicked(e)} featureClicked={e=>this.featureClicked(e)} integrationClicked={e=>this.integrationClicked(e)} />
+
             </div>
         );
     }
