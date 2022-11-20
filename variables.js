@@ -130,9 +130,44 @@ const whyus = [
 
 const pricesSection = [
   {
-    title: "Community Version",
+    title: "Self-Hosted",
     price: "0",
-    subtitle: "for lifetime",
+    subtitle: "Full control",
+    actionName: 'Get Started',
+    actionLink: 'https://docs.outerbridge.io/get-started',
+    bulletpoints: [
+      {
+        title: "Unlimited workflows",
+        available: "true",
+      },
+      {
+        title: "Unlimited executions",
+        available: "true",
+      },
+      {
+        title: "Unlimited contracts",
+        available: "true",
+      },
+      {
+        title: "Unlimited wallets",
+        available: "true",
+      },
+      {
+        title: "You own the data",
+        available: "true",
+      },
+      {
+        title: "Easy Npm or Docker installation",
+        available: "true",
+      },
+    ],
+  },
+  {
+    title: "Cloud Community",
+    price: "0",
+    subtitle: "Hosted solution by Outerbridge",
+    actionName: 'Sign Up For Free',
+    actionLink: 'https://app.outerbridge.io',
     bulletpoints: [
       {
         title: "Single user",

@@ -30,7 +30,7 @@ export default function PriceCard({ cardInfo }) {
                
             </ul>
             <div className ="button-wrapper">
-                <a className ="btn-solid-reg page-scroll" href="https://app.outerbridge.io" target="_blank" >Sign Up For Free</a>
+                <a className ="btn-solid-reg page-scroll" href={cardInfo.actionLink} target="_blank" >{cardInfo.actionName}</a>
             </div>
         </div>
     </div>

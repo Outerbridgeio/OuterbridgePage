@@ -18,6 +18,8 @@ export default function Pricing() {
                                 price: card.price,
                                 subtitle: card.subtitle,
                                 bulletpoints: card.bulletpoints,
+                                actionName: card.actionName,
+                                actionLink: card.actionLink,
                             }}
                         />
                     );
