@@ -31,7 +31,7 @@ class Integrations extends Component {
                 })}
                 </div>
                 <div className="button-wrapper" style={{textAlign: 'center', marginTop: 30, paddingBottom: 80}}>
-                    <a style={{marginTop: 10, cursor: 'pointer'}} className="btn-contained-lg page-scroll" href="https://demo.outerbridge.io/canvas" target="_blank">View All 50+ Integrations</a>
+                    <a style={{marginTop: 10, cursor: 'pointer'}} className="btn-contained-lg page-scroll" href="https://docs.outerbridge.io/integrations/integrations" target="_blank">View All 50+ Integrations</a>
                 </div>
             </div>
         </div>
