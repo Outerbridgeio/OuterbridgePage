@@ -58,7 +58,7 @@ class Footer extends Component {
                                                 <a className="white" href="https://docs.outerbridge.io" target="_blank" >View Docs</a>
                                             </li>
                                             <li className="media">
-                                                <a className="white" href="https://demo.outerbridge.io" target="_blank" >View Demo</a>
+                                                <a className="white" href="https://blog.outerbridge.io" target="_blank" >Blog</a>
                                             </li>
                                             <li className="media">
                                                 <a className="white" href="/terms" target="_blank" >Terms of Use</a>
